@@ -29,6 +29,7 @@ public class signUpTest {
 	public void AfterSuiteMethod()
 	{
 		System.out.println("Hello from After Suite");
+		System.out.println("New Code changes on Jan 11th");
 	}
 
 }
