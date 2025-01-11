@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="20" passed="17" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-27T20:57:16 IST" name="Ecomm Application Suite" finished-at="2024-11-27T20:57:16 IST" duration-ms="87">
+    <groups>
+      <group name="Regression">
+        <method signature="signUpTest.signUpTestCase1()[pri:0, instance:TestNGPackage.signUpTest@5403f35f]" name="signUpTestCase1" class="TestNGPackage.signUpTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="homePage2.HomePageModule3TestCase6()[pri:0, instance:TestNGPackage.homePage2@272ed83b]" name="HomePageModule3TestCase6" class="TestNGPackage.homePage2"/>
+        <method signature="signUpTest.signUpTestCase2()[pri:0, instance:TestNGPackage.signUpTest@5403f35f]" name="signUpTestCase2" class="TestNGPackage.signUpTest"/>
+        <method signature="signUpTest.signUpTestCase3()[pri:0, instance:TestNGPackage.signUpTest@5403f35f]" name="signUpTestCase3" class="TestNGPackage.signUpTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-11-27T20:57:16 IST" name="Checkout Test" finished-at="2024-11-27T20:57:16 IST" duration-ms="85">
+      <class name="TestNGPackage.signUpTest">
+        <test-method is-config="true" signature="AfterSuiteMethod()[pri:0, instance:TestNGPackage.signUpTest@5403f35f]" started-at="2024-11-27T20:57:16 IST" name="AfterSuiteMethod" finished-at="2024-11-27T20:57:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuiteMethod -->
+      </class> <!-- TestNGPackage.signUpTest -->
+      <class name="TestNGPackage.checkOutTest">
+        <test-method signature="HomePageModule3TestCase14()[pri:1, instance:TestNGPackage.checkOutTest@3f6b0be5]" started-at="2024-11-27T20:57:16 IST" name="HomePageModule3TestCase14" finished-at="2024-11-27T20:57:16 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageModule3TestCase14 -->
+        <test-method signature="HomePageModule3TestCase13()[pri:2, instance:TestNGPackage.checkOutTest@3f6b0be5]" started-at="2024-11-27T20:57:16 IST" name="HomePageModule3TestCase13" finished-at="2024-11-27T20:57:16 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageModule3TestCase13 -->
+        <test-method signature="HomePageModule2TestCase12()[pri:3, instance:TestNGPackage.checkOutTest@3f6b0be5]" started-at="2024-11-27T20:57:16 IST" name="HomePageModule2TestCase12" finished-at="2024-11-27T20:57:16 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageModule2TestCase12 -->
+        <test-method signature="HomePageModule2TestCase11()[pri:4, instance:TestNGPackage.checkOutTest@3f6b0be5]" started-at="2024-11-27T20:57:16 IST" name="HomePageModule2TestCase11" finished-at="2024-11-27T20:57:16 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageModule2TestCase11 -->
+      </class> <!-- TestNGPackage.checkOutTest -->
+      <class name="TestNGPackage.homePage">
+        <test-method is-config="true" signature="BeforeSuiteMethod()[pri:0, instance:TestNGPackage.homePage@2f8dad04]" started-at="2024-11-27T20:57:16 IST" name="BeforeSuiteMethod" finished-at="2024-11-27T20:57:16 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuiteMethod -->
+      </class> <!-- TestNGPackage.homePage -->
+    </test> <!-- Checkout Test -->
+    <test started-at="2024-11-27T20:57:16 IST" name="Home Page Test" finished-at="2024-11-27T20:57:16 IST" duration-ms="69">
+      <class name="TestNGPackage.homePage2">
+        <test-method is-config="true" signature="BeforeClassRun()[pri:0, instance:TestNGPackage.homePage2@272ed83b]" started-at="2024-11-27T20:57:16 IST" name="BeforeClassRun" finished-at="2024-11-27T20:57:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClassRun -->
+        <test-method is-config="true" signature="BeforeMethodRun()[pri:0, instance:TestNGPackage.homePage2@272ed83b]" started-at="2024-11-27T20:57:16 IST" name="BeforeMethodRun" finished-at="2024-11-27T20:57:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodRun -->
+        <test-method signature="HomePageModule2TestCase4()[pri:0, instance:TestNGPackage.homePage2@272ed83b]" started-at="2024-11-27T20:57:16 IST" name="HomePageModule2TestCase4" finished-at="2024-11-27T20:57:16 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageModule2TestCase4 -->
+        <test-method is-config="true" signature="AfterMethodRun()[pri:0, instance:TestNGPackage.homePage2@272ed83b]" started-at="2024-11-27T20:57:16 IST" name="AfterMethodRun" finished-at="2024-11-27T20:57:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodRun -->
+        <test-method signature="HomePageModule2TestCase5()[pri:0, instance:TestNGPackage.homePage2@272ed83b]" started-at="2024-11-27T20:57:16 IST" name="HomePageModule2TestCase5" finished-at="2024-11-27T20:57:16 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageModule2TestCase5 -->
+        <test-method is-config="true" signature="BeforeMethodRun()[pri:0, instance:TestNGPackage.homePage2@272ed83b]" started-at="2024-11-27T20:57:16 IST" name="BeforeMethodRun" finished-at="2024-11-27T20:57:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodRun -->
+        <test-method is-config="true" signature="AfterMethodRun()[pri:0, instance:TestNGPackage.homePage2@272ed83b]" started-at="2024-11-27T20:57:16 IST" name="AfterMethodRun" finished-at="2024-11-27T20:57:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodRun -->
+        <test-method is-config="true" signature="BeforeMethodRun()[pri:0, instance:TestNGPackage.homePage2@272ed83b]" started-at="2024-11-27T20:57:16 IST" name="BeforeMethodRun" finished-at="2024-11-27T20:57:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodRun -->
+        <test-method signature="HomePageModule3TestCase6()[pri:0, instance:TestNGPackage.homePage2@272ed83b]" started-at="2024-11-27T20:57:16 IST" name="HomePageModule3TestCase6" finished-at="2024-11-27T20:57:16 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageModule3TestCase6 -->
+        <test-method is-config="true" signature="AfterClassRun()[pri:0, instance:TestNGPackage.homePage2@272ed83b]" started-at="2024-11-27T20:57:16 IST" name="AfterClassRun" finished-at="2024-11-27T20:57:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClassRun -->
+        <test-method is-config="true" signature="AfterMethodRun()[pri:0, instance:TestNGPackage.homePage2@272ed83b]" started-at="2024-11-27T20:57:16 IST" name="AfterMethodRun" finished-at="2024-11-27T20:57:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodRun -->
+      </class> <!-- TestNGPackage.homePage2 -->
+      <class name="TestNGPackage.homePage">
+        <test-method is-config="true" signature="BeforeTestRun()[pri:0, instance:TestNGPackage.homePage@2f8dad04]" started-at="2024-11-27T20:57:16 IST" name="BeforeTestRun" finished-at="2024-11-27T20:57:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTestRun -->
+        <test-method signature="HomePageModule1TestCase1()[pri:0, instance:TestNGPackage.homePage@2f8dad04]" started-at="2024-11-27T20:57:16 IST" name="HomePageModule1TestCase1" finished-at="2024-11-27T20:57:16 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageModule1TestCase1 -->
+        <test-method signature="HomePageModule1TestCase2()[pri:0, instance:TestNGPackage.homePage@2f8dad04]" started-at="2024-11-27T20:57:16 IST" name="HomePageModule1TestCase2" finished-at="2024-11-27T20:57:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageModule1TestCase2 -->
+        <test-method is-config="true" signature="AfterTestRun()[pri:0, instance:TestNGPackage.homePage@2f8dad04]" started-at="2024-11-27T20:57:16 IST" name="AfterTestRun" finished-at="2024-11-27T20:57:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTestRun -->
+      </class> <!-- TestNGPackage.homePage -->
+    </test> <!-- Home Page Test -->
+    <test started-at="2024-11-27T20:57:16 IST" name="Sign Up Test" finished-at="2024-11-27T20:57:16 IST" duration-ms="73">
+      <class name="TestNGPackage.signUpTest">
+        <test-method signature="signUpTestCase1()[pri:0, instance:TestNGPackage.signUpTest@5403f35f]" started-at="2024-11-27T20:57:16 IST" name="signUpTestCase1" finished-at="2024-11-27T20:57:16 IST" duration-ms="8" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at TestNGPackage.signUpTest.signUpTestCase1(signUpTest.java:13)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTestCase1 -->
+        <test-method signature="signUpTestCase2()[pri:0, instance:TestNGPackage.signUpTest@5403f35f]" started-at="2024-11-27T20:57:16 IST" name="signUpTestCase2" finished-at="2024-11-27T20:57:16 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTestCase2 -->
+        <test-method signature="signUpTestCase3()[pri:0, instance:TestNGPackage.signUpTest@5403f35f]" started-at="2024-11-27T20:57:16 IST" name="signUpTestCase3" finished-at="2024-11-27T20:57:16 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTestCase3 -->
+      </class> <!-- TestNGPackage.signUpTest -->
+    </test> <!-- Sign Up Test -->
+    <test started-at="2024-11-27T20:57:16 IST" name="Login Test" finished-at="2024-11-27T20:57:16 IST" duration-ms="87">
+      <class name="TestNGPackage.loginPage">
+        <test-method signature="HomePageModule3TestCase9()[pri:0, instance:TestNGPackage.loginPage@6da21078]" started-at="2024-11-27T20:57:16 IST" name="HomePageModule3TestCase9" finished-at="2024-11-27T20:57:16 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageModule3TestCase9 -->
+        <test-method signature="HomePageModule3TestCase10(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGPackage.loginPage@6da21078]" started-at="2024-11-27T20:57:16 IST" name="HomePageModule3TestCase10" finished-at="2024-11-27T20:57:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageModule3TestCase10 -->
+        <test-method signature="HomePageModule3TestCase11(java.lang.String,java.lang.String)[pri:0, instance:TestNGPackage.loginPage@6da21078]" started-at="2024-11-27T20:57:16 IST" name="HomePageModule3TestCase11" data-provider="getData" finished-at="2024-11-27T20:57:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[goodusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[goodpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageModule3TestCase11 -->
+        <test-method signature="HomePageModule3TestCase11(java.lang.String,java.lang.String)[pri:0, instance:TestNGPackage.loginPage@6da21078]" started-at="2024-11-27T20:57:16 IST" name="HomePageModule3TestCase11" data-provider="getData" finished-at="2024-11-27T20:57:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[goodusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[badpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageModule3TestCase11 -->
+        <test-method signature="HomePageModule3TestCase11(java.lang.String,java.lang.String)[pri:0, instance:TestNGPackage.loginPage@6da21078]" started-at="2024-11-27T20:57:16 IST" name="HomePageModule3TestCase11" data-provider="getData" finished-at="2024-11-27T20:57:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[badusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[goodpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageModule3TestCase11 -->
+        <test-method signature="HomePageModule2TestCase8()[pri:0, instance:TestNGPackage.loginPage@6da21078]" started-at="2024-11-27T20:57:16 IST" name="HomePageModule2TestCase8" finished-at="2024-11-27T20:57:16 IST" depends-on-methods="TestNGPackage.loginPage.HomePageModule3TestCase9" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageModule2TestCase8 -->
+      </class> <!-- TestNGPackage.loginPage -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Ecomm Application Suite -->
+</testng-results>

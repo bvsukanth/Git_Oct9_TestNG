@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Ecomm_Application_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Ecomm Application Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Ecomm_Application_Suite" class="navigator-link ">
+                    <span>C:\Users\Hanvith\SeleniumTraining\SeleniumTesting_TestNG_Oct9\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Ecomm_Application_Suite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Ecomm_Application_Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Ecomm_Application_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Ecomm_Application_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Ecomm_Application_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Ecomm_Application_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Ecomm_Application_Suite" class="hide-methods failed suite-Ecomm_Application_Suite"> (hide)</a> <!-- hide-methods failed suite-Ecomm_Application_Suite -->
+                      <a href="#" panel-name="suite-Ecomm_Application_Suite" class="show-methods failed suite-Ecomm_Application_Suite"> (show)</a> <!-- show-methods failed suite-Ecomm_Application_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Ecomm_Application_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.signUpTest" class="method navigator-link" hash-for-method="signUpTestCase1">signUpTestCase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Ecomm_Application_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Ecomm_Application_Suite" class="hide-methods passed suite-Ecomm_Application_Suite"> (hide)</a> <!-- hide-methods passed suite-Ecomm_Application_Suite -->
+                      <a href="#" panel-name="suite-Ecomm_Application_Suite" class="show-methods passed suite-Ecomm_Application_Suite"> (show)</a> <!-- show-methods passed suite-Ecomm_Application_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Ecomm_Application_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.homePage" class="method navigator-link" hash-for-method="HomePageModule1TestCase1">HomePageModule1TestCase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.homePage" class="method navigator-link" hash-for-method="HomePageModule1TestCase2">HomePageModule1TestCase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.checkOutTest" class="method navigator-link" hash-for-method="HomePageModule2TestCase11">HomePageModule2TestCase11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.checkOutTest" class="method navigator-link" hash-for-method="HomePageModule2TestCase12">HomePageModule2TestCase12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.homePage2" class="method navigator-link" hash-for-method="HomePageModule2TestCase4">HomePageModule2TestCase4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.homePage2" class="method navigator-link" hash-for-method="HomePageModule2TestCase5">HomePageModule2TestCase5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.loginPage" class="method navigator-link" hash-for-method="HomePageModule2TestCase8">HomePageModule2TestCase8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.loginPage" class="method navigator-link" hash-for-method="HomePageModule3TestCase10(https://www.amazon.com, user1, password)">HomePageModule3TestCase10(https://www.amazon.com, user1, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.loginPage" class="method navigator-link" hash-for-method="HomePageModule3TestCase11(goodusername, goodpassword)">HomePageModule3TestCase11(goodusername, goodpassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.loginPage" class="method navigator-link" hash-for-method="HomePageModule3TestCase11(goodusername, badpassword)">HomePageModule3TestCase11(goodusername, badpassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.loginPage" class="method navigator-link" hash-for-method="HomePageModule3TestCase11(badusername, goodpassword)">HomePageModule3TestCase11(badusername, goodpassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.checkOutTest" class="method navigator-link" hash-for-method="HomePageModule3TestCase13">HomePageModule3TestCase13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.checkOutTest" class="method navigator-link" hash-for-method="HomePageModule3TestCase14">HomePageModule3TestCase14</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.homePage2" class="method navigator-link" hash-for-method="HomePageModule3TestCase6">HomePageModule3TestCase6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.loginPage" class="method navigator-link" hash-for-method="HomePageModule3TestCase9">HomePageModule3TestCase9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.signUpTest" class="method navigator-link" hash-for-method="signUpTestCase2">signUpTestCase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecomm_Application_Suite" title="TestNGPackage.signUpTest" class="method navigator-link" hash-for-method="signUpTestCase3">signUpTestCase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Ecomm_Application_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Ecomm_Application_Suite" class="panel Ecomm_Application_Suite">
+          <div class="suite-Ecomm_Application_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestNGPackage.signUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpTestCase1">
+                  </a> <!-- signUpTestCase1 -->
+                  <span class="method-name">signUpTestCase1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at TestNGPackage.signUpTest.signUpTestCase1(signUpTest.java:13)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecomm_Application_Suite-class-failed -->
+          <div class="suite-Ecomm_Application_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGPackage.loginPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageModule2TestCase8">
+                  </a> <!-- HomePageModule2TestCase8 -->
+                  <span class="method-name">HomePageModule2TestCase8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageModule3TestCase10(https://www.amazon.com, user1, password)">
+                  </a> <!-- HomePageModule3TestCase10(https://www.amazon.com, user1, password) -->
+                  <span class="method-name">HomePageModule3TestCase10</span>
+                  <span class="parameters">(https://www.amazon.com, user1, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageModule3TestCase11(goodusername, goodpassword)">
+                  </a> <!-- HomePageModule3TestCase11(goodusername, goodpassword) -->
+                  <span class="method-name">HomePageModule3TestCase11</span>
+                  <span class="parameters">(goodusername, goodpassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageModule3TestCase11(goodusername, badpassword)">
+                  </a> <!-- HomePageModule3TestCase11(goodusername, badpassword) -->
+                  <span class="method-name">HomePageModule3TestCase11</span>
+                  <span class="parameters">(goodusername, badpassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageModule3TestCase11(badusername, goodpassword)">
+                  </a> <!-- HomePageModule3TestCase11(badusername, goodpassword) -->
+                  <span class="method-name">HomePageModule3TestCase11</span>
+                  <span class="parameters">(badusername, goodpassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageModule3TestCase9">
+                  </a> <!-- HomePageModule3TestCase9 -->
+                  <span class="method-name">HomePageModule3TestCase9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecomm_Application_Suite-class-passed -->
+          <div class="suite-Ecomm_Application_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGPackage.signUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpTestCase2">
+                  </a> <!-- signUpTestCase2 -->
+                  <span class="method-name">signUpTestCase2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpTestCase3">
+                  </a> <!-- signUpTestCase3 -->
+                  <span class="method-name">signUpTestCase3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecomm_Application_Suite-class-passed -->
+          <div class="suite-Ecomm_Application_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGPackage.homePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageModule1TestCase1">
+                  </a> <!-- HomePageModule1TestCase1 -->
+                  <span class="method-name">HomePageModule1TestCase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageModule1TestCase2">
+                  </a> <!-- HomePageModule1TestCase2 -->
+                  <span class="method-name">HomePageModule1TestCase2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecomm_Application_Suite-class-passed -->
+          <div class="suite-Ecomm_Application_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGPackage.homePage2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageModule2TestCase4">
+                  </a> <!-- HomePageModule2TestCase4 -->
+                  <span class="method-name">HomePageModule2TestCase4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageModule2TestCase5">
+                  </a> <!-- HomePageModule2TestCase5 -->
+                  <span class="method-name">HomePageModule2TestCase5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageModule3TestCase6">
+                  </a> <!-- HomePageModule3TestCase6 -->
+                  <span class="method-name">HomePageModule3TestCase6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecomm_Application_Suite-class-passed -->
+          <div class="suite-Ecomm_Application_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGPackage.checkOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageModule2TestCase11">
+                  </a> <!-- HomePageModule2TestCase11 -->
+                  <span class="method-name">HomePageModule2TestCase11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageModule2TestCase12">
+                  </a> <!-- HomePageModule2TestCase12 -->
+                  <span class="method-name">HomePageModule2TestCase12</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageModule3TestCase13">
+                  </a> <!-- HomePageModule3TestCase13 -->
+                  <span class="method-name">HomePageModule3TestCase13</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageModule3TestCase14">
+                  </a> <!-- HomePageModule3TestCase14 -->
+                  <span class="method-name">HomePageModule3TestCase14</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecomm_Application_Suite-class-passed -->
+        </div> <!-- panel Ecomm_Application_Suite -->
+        <div panel-name="test-xml-Ecomm_Application_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Hanvith\SeleniumTraining\SeleniumTesting_TestNG_Oct9\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Ecomm Application Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;TestNGPackage.TestNGListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Home Page Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestNGPackage.homePage&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;HomePageModule2.*&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- TestNGPackage.homePage --&gt;
+      &lt;class name=&quot;TestNGPackage.homePage2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Home Page Test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Sign Up Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestNGPackage.signUpTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sign Up Test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Login Test&quot;&gt;
+    &lt;parameter name=&quot;UserName&quot; value=&quot;user1&quot;/&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://www.amazon.com&quot;/&gt;
+    &lt;parameter name=&quot;Password&quot; value=&quot;password&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestNGPackage.loginPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Checkout Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestNGPackage.checkOutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checkout Test --&gt;
+&lt;/suite&gt; &lt;!-- Ecomm Application Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Ecomm_Application_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Ecomm Application Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Home Page Test (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Sign Up Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checkout Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Ecomm_Application_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Ecomm Application Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">signUpTestCase1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomePageModule3TestCase6</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">signUpTestCase2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">signUpTestCase3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Ecomm_Application_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Ecomm Application Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Ecomm_Application_Suite');
+function tableData_Ecomm_Application_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'HomePageModule3TestCase9')
+data.setCell(0, 2, 'TestNGPackage.loginPage')
+data.setCell(0, 3, 13);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'HomePageModule3TestCase13')
+data.setCell(1, 2, 'TestNGPackage.checkOutTest')
+data.setCell(1, 3, 8);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'HomePageModule3TestCase14')
+data.setCell(2, 2, 'TestNGPackage.checkOutTest')
+data.setCell(2, 3, 8);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'signUpTestCase1')
+data.setCell(3, 2, 'TestNGPackage.signUpTest')
+data.setCell(3, 3, 8);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'signUpTestCase2')
+data.setCell(4, 2, 'TestNGPackage.signUpTest')
+data.setCell(4, 3, 7);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'HomePageModule2TestCase4')
+data.setCell(5, 2, 'TestNGPackage.homePage2')
+data.setCell(5, 3, 5);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'HomePageModule1TestCase1')
+data.setCell(6, 2, 'TestNGPackage.homePage')
+data.setCell(6, 3, 5);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'signUpTestCase3')
+data.setCell(7, 2, 'TestNGPackage.signUpTest')
+data.setCell(7, 3, 5);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'HomePageModule2TestCase12')
+data.setCell(8, 2, 'TestNGPackage.checkOutTest')
+data.setCell(8, 3, 4);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'HomePageModule2TestCase5')
+data.setCell(9, 2, 'TestNGPackage.homePage2')
+data.setCell(9, 3, 4);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'HomePageModule2TestCase11')
+data.setCell(10, 2, 'TestNGPackage.checkOutTest')
+data.setCell(10, 3, 3);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'HomePageModule3TestCase6')
+data.setCell(11, 2, 'TestNGPackage.homePage2')
+data.setCell(11, 3, 3);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'HomePageModule1TestCase2')
+data.setCell(12, 2, 'TestNGPackage.homePage')
+data.setCell(12, 3, 2);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'HomePageModule3TestCase11')
+data.setCell(13, 2, 'TestNGPackage.loginPage')
+data.setCell(13, 3, 2);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'HomePageModule3TestCase11')
+data.setCell(14, 2, 'TestNGPackage.loginPage')
+data.setCell(14, 3, 2);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'HomePageModule3TestCase11')
+data.setCell(15, 2, 'TestNGPackage.loginPage')
+data.setCell(15, 3, 2);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'HomePageModule3TestCase10')
+data.setCell(16, 2, 'TestNGPackage.loginPage')
+data.setCell(16, 3, 2);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'HomePageModule2TestCase8')
+data.setCell(17, 2, 'TestNGPackage.loginPage')
+data.setCell(17, 3, 1);
+window.suiteTableData['Ecomm_Application_Suite']= { tableData: data, tableDiv: 'times-div-Ecomm_Application_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 87 ms</span>
+              <div id="times-div-Ecomm_Application_Suite">
+              </div> <!-- times-div-Ecomm_Application_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Ecomm_Application_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Ecomm Application Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Ecomm_Application_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestNGPackage.loginPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">HomePageModule2TestCase7</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestNGPackage.homePage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">HomePageModule2TestCase3</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Ecomm_Application_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.homePage</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">BeforeSuiteMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">BeforeTestRun</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.homePage2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BeforeClassRun</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethodRun</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.homePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HomePageModule1TestCase1</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.signUpTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpTestCase1</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.loginPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HomePageModule3TestCase9</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.checkOutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HomePageModule3TestCase14</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.homePage2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HomePageModule2TestCase4</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.homePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HomePageModule1TestCase2</span>
+                <span class="method-start">61 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.homePage2</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethodRun</span>
+                <span class="method-start">61 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">HomePageModule2TestCase5</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethodRun</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.checkOutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HomePageModule3TestCase13</span>
+                <span class="method-start">64 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.loginPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HomePageModule3TestCase10(https://www.amazon.com, user1, password)</span>
+                <span class="method-start">68 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.signUpTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">signUpTestCase2</span>
+                <span class="method-start">69 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.homePage2</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethodRun</span>
+                <span class="method-start">71 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethodRun</span>
+                <span class="method-start">74 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HomePageModule3TestCase6</span>
+                <span class="method-start">74 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.loginPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HomePageModule3TestCase11(goodusername, goodpassword)</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.checkOutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HomePageModule2TestCase12</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.homePage2</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">AfterClassRun</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.homePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">AfterTestRun</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.homePage2</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethodRun</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.signUpTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">signUpTestCase3</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.loginPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HomePageModule3TestCase11(goodusername, badpassword)</span>
+                <span class="method-start">83 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePageModule3TestCase11(badusername, goodpassword)</span>
+                <span class="method-start">86 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.checkOutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HomePageModule2TestCase11</span>
+                <span class="method-start">86 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.loginPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HomePageModule2TestCase8</span>
+                <span class="method-start">96 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGPackage.signUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">AfterSuiteMethod</span>
+                <span class="method-start">194 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
